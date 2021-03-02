@@ -77,30 +77,36 @@
 
 .row-1{
    color: ivory;
-       margin-left:  320px;
-       margin-right:  320px;
        background-color: #06080a;
        font-size: 50px;
        height: 80px;
        text-align: right ;
        padding-right: 4px;
-       padding-top:1px;
+       padding-top:10px;
        overflow:auto;
-
+       border-radius: 30px;
       
 
    }
+   .container{
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    border-radius: 30px;
+   }
 .row-2{
-   height: 250px;
+   
   
  background-color: #06080a;
- padding: 10px;
-   margin-left:320px;
-   grid-column-gap: 2px;
-   grid-row-gap: 2px;
-   margin-right: 320px;
+ padding: 20px;
+ height: 500px;
+ border-radius: 30px;
+  
+   grid-column-gap: 4px;
+   grid-row-gap: 4px;
 
    display: grid;
+   
    grid-template-areas:'cal div mul su'
                        'seve eig nin plus'
                        'for fiv six plus'
@@ -111,7 +117,7 @@
    background-color: #617961;
  border: 1px solid rgba(0, 0, 0, 0.8);
  padding: 7px;
- font-size: 20px;
+ font-size: 40px;
  text-align: center;
 }
 [class*='button-']:hover {
@@ -120,25 +126,25 @@
    cursor: pointer;
 }
 #priviou{
-   margin-top: 100px;
-       margin-left:  320px;
-       margin-right:  320px;
+  
        background-color: #06080a;
        font-size: 50px;
        overflow:auto;
        color: ivory;
-       text-align: right ;
+       text-align: right;
        padding-right: 4px;
        padding-top:1px;
        padding-bottom: 4px;
+       border-radius: 30px;
 }
 .buttonc{
    background-color: #ec4646;
  border: 1px solid rgba(0, 0, 0, 0.8);
- padding: 7px;
- font-size: 20px;
+
+ font-size: 30px;
  color: white;
  text-align: center;
+ padding-top: 10%;
 }
 .buttonc:hover{
    background-color: #621919;
