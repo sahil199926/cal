@@ -1,0 +1,145 @@
+ 
+
+.buttonc{
+    
+    grid-area:cal;
+    
+}
+
+.button-divide{
+   background: PaleGreen;
+    grid-area:div;
+}
+.button-multiply{
+   background: PaleGreen;
+    grid-area:mul;
+}
+.button-sub{
+   background: PaleGreen;
+    grid-area:su;
+}
+.button-7{
+   
+    grid-area:seve;
+   
+}
+.button-8{
+   
+    grid-area:eig;
+}
+.button-9{
+   
+    grid-area:nin;
+}
+.button-4{
+   background: rgb(35, 157, 179);
+    grid-area:for;
+}
+.button-5{
+   
+    grid-area:fiv;
+}
+.button-6{
+   
+    grid-area:six;
+}
+.button-1{
+   background: PaleGreen;
+    grid-area:one;
+}
+.button-2{
+   background: gold;
+    grid-area:two;
+}
+.button-3{
+   background: antiquewhite;
+    grid-area:thr;
+}
+.button-add{
+   background: forestgreen;
+    grid-area:plus;
+}
+.button-enter{
+   background: yellow;
+    grid-area:ent;
+}
+.button-0{
+   background: yellowgreen;
+    grid-area:zero;
+}
+.button-dot{
+   background: red;
+    grid-area:do;
+}
+.button-del{
+   grid-area: de;
+}
+
+.row-1{
+   color: ivory;
+       margin-left:  320px;
+       margin-right:  320px;
+       background-color: #06080a;
+       font-size: 50px;
+       height: 80px;
+       text-align: right ;
+       padding-right: 4px;
+       padding-top:1px;
+       overflow:auto;
+
+      
+
+   }
+.row-2{
+   height: 250px;
+  
+ background-color: #06080a;
+ padding: 10px;
+   margin-left:320px;
+   grid-column-gap: 2px;
+   grid-row-gap: 2px;
+   margin-right: 320px;
+
+   display: grid;
+   grid-template-areas:'cal div mul su'
+                       'seve eig nin plus'
+                       'for fiv six plus'
+                       'one two thr ent'
+                       'zero de do ent';
+}
+[class*="button-"]{
+   background-color: #617961;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 7px;
+ font-size: 20px;
+ text-align: center;
+}
+[class*='button-']:hover {
+   background-color: rgb(32, 18, 18);
+   color: cornsilk;
+   cursor: pointer;
+}
+#priviou{
+   margin-top: 100px;
+       margin-left:  320px;
+       margin-right:  320px;
+       background-color: #06080a;
+       font-size: 50px;
+       overflow:auto;
+       color: ivory;
+       text-align: right ;
+       padding-right: 4px;
+       padding-top:1px;
+       padding-bottom: 4px;
+}
+.buttonc{
+   background-color: #ec4646;
+ border: 1px solid rgba(0, 0, 0, 0.8);
+ padding: 7px;
+ font-size: 20px;
+ color: white;
+ text-align: center;
+}
+.buttonc:hover{
+   background-color: #621919;
+}
