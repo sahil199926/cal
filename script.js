@@ -9,7 +9,7 @@ function ev(a){
     if(a=="c") {string_eq="";}
     else if(a=="d"){string_eq=string_eq.slice(0,-1);}
     else{
-     string_eq+=a;}
+     string_eq+=a;res=0;}
      
     
     document.getElementById("row_1").innerHTML=string_eq;
