@@ -1,5 +1,5 @@
 # calculater
-cick on the link 
+click on the link 
 # https://thunder-flying-ambert.glitch.me/home.html
 
 
